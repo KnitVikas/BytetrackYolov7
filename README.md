@@ -270,12 +270,17 @@ You can get the tracking results in each frame from 'online_targets'. You can re
 <img src="assets/palace_demo.gif" width="600"/>
 
 ```shell
-cd <ByteTrack_HOME>
-python3 tools/demo_track.py video -f exps/example/mot/yolox_x_mix_det.py -c pretrained/bytetrack_x_mot17.pth.tar --fp16 --fuse --save_result
+Usage for yolov5
+1. cd yolov5
+2. download weights and update the path of weights and dataset in  detect.py
+3. run python detect.py
+4. results will save in yolov5/runs/detect/exp/track_vis
 
-test yolov5
-
-python3 tools_yolov5/demo_track_yolov5.py video -f exps/example/mot/yolov5_s_mix_det.py --save_result
+Usage for yolov7
+1. cd yolov7
+2. download weights and update the path of weights and dataset in  detect.py
+3. run python detect.py
+4. results will save in yolov5/runs/detect/exp/track_vis
 ```
 
 ## Deploy
