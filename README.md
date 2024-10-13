@@ -276,7 +276,7 @@ Usage for yolov5
 3. run python detect.py
 4. results will save in yolov5/runs/detect/exp/track_vis
 
-Usage for yolov7
+Usage for Yolov7
 1. cd yolov7
 2. download weights and update the path of weights and dataset in  detect.py
 3. run python detect.py
